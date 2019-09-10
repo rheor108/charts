@@ -1,5 +1,7 @@
 zeppelin:
-  image: dylanmei/zeppelin:0.7.2
+  image: 
+    repository: dylanmei/zeppelin
+    tag: 0.7.2
   resources:
     limits:
       memory: "4096Mi"
